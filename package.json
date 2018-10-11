@@ -1,0 +1,19 @@
+{
+  "name": "legacy-mountain",
+  "version": "1.0.0",
+  "description": "Static beginnings to Legacy Mountain's new website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TranontDev/legacy-mountain.git"
+  },
+  "author": "James Matthew Briggs",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TranontDev/legacy-mountain/issues"
+  },
+  "homepage": "https://github.com/TranontDev/legacy-mountain#readme"
+}
