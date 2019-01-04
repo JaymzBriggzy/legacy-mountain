@@ -517,3 +517,14 @@ iframe {
   -webkit-appearance: none;
   border-radius: .5rem;
   border: none; }
+
+.video-showcase {
+  display: grid;
+  margin: 10rem auto;
+  grid-template-columns: 1fr 1fr;
+  justify-items: center;
+  align-items: center; }
+
+.mr-top-large {
+  margin-top: 10rem;
+  display: block; }
