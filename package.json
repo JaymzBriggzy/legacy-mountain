@@ -17,8 +17,6 @@
   },
   "homepage": "https://github.com/TranontDev/legacy-mountain#readme",
   "devDependencies": {
-    "@fortawesome/fontawesome-free": "^5.4.0",
-    "@fortawesome/fontawesome-pro": "^5.4.0",
     "node-sass": "^4.9.3"
   },
   "dependencies": {

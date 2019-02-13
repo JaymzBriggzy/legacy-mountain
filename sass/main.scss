@@ -5,13 +5,13 @@ $primary-font: 'Montserrat', sans-serif;
 $secondary-font: 'Open Sans', sans-serif;
 $legacy-mountain-font: 'Parisienne', cursive;
 
-$primary-color: rgb(0, 68, 124);
+$primary-color: #8F2126;
 $color-white: rgb(255, 255, 255);
-
 // Media Queries
 
 $breakpoints: (
-  'large': 1249px, 
+  'large': 1249px,
+  'marge':  1050px,
   'medium': 819px,
   'small': 649px,
   'xsmall': 480px,
@@ -131,6 +131,16 @@ button {
   font-size: 3.5rem;
   font-family: $legacy-mountain-font;
   white-space: nowrap;
+
+  & img {
+      width: 35rem;
+      margin: 1.5rem;
+
+      @include mq('marge') {
+        width: 25rem;
+        margin: 2rem;
+      }
+    }
 }
 
 .mobile-dropdown {
