@@ -174,7 +174,7 @@ button {
 .menu-bar {
   width: 100%;
   height: 75px;
-  background: #00447c;
+  background: #8F2126;
   box-shadow: 0 3px 10px rgba(0, 0, 0, 0.6);
   z-index: 1001;
   position: relative; }
@@ -209,12 +209,19 @@ button {
   font-size: 3.5rem;
   font-family: "Parisienne", cursive;
   white-space: nowrap; }
+  .home-link img {
+    width: 35rem;
+    margin: 1.5rem; }
+    @media only screen and (max-width: 1050px) {
+      .home-link img {
+        width: 25rem;
+        margin: 2rem; } }
 
 .mobile-dropdown {
   position: absolute;
   right: 0;
   width: 12.5rem;
-  background: #004a86;
+  background: #972328;
   padding: 2rem; }
 
 .hide {
@@ -366,7 +373,7 @@ iframe {
   font-family: "Open Sans", sans-serif;
   font-size: 4.5rem;
   font-weight: 400;
-  color: #00447c;
+  color: #8F2126;
   margin-bottom: 3rem; }
 
 .section-subheadline {
@@ -443,7 +450,7 @@ iframe {
 .footer {
   height: 7.5rem;
   margin-bottom: 0;
-  background: #00447c;
+  background: #8F2126;
   color: white;
   font-size: 1.6rem; }
 
@@ -489,7 +496,7 @@ iframe {
   margin: 2rem auto 2rem;
   display: block;
   max-width: 28rem;
-  background: #00447c;
+  background: #8F2126;
   font-size: 2rem;
   padding: 1rem 3rem;
   border-radius: .5rem;
@@ -499,14 +506,14 @@ iframe {
   font-weight: 400;
   text-align: center; }
   .button-primary:hover {
-    background: #005296; }
+    background: #a4262c; }
   .button-primary:focus {
     outline: none; }
 
 .mc-field-group input {
   width: 30rem;
   height: 27px;
-  border: 1px solid #004a86;
+  border: 1px solid #972328;
   padding: 5px;
   border-radius: 5px;
   margin: 10px;
