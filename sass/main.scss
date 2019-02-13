@@ -10,8 +10,8 @@ $color-white: rgb(255, 255, 255);
 // Media Queries
 
 $breakpoints: (
-  'large': 1249px,
-  'marge':  1050px,
+  'xlarge': 1249px,
+  'large':  1050px,
   'medium': 819px,
   'small': 649px,
   'xsmall': 480px,
@@ -69,7 +69,7 @@ button {
   margin-left: 10rem;
   margin-right: 10rem;
 
-  @include mq('large') {
+  @include mq('xxlarge') {
     margin-left: 5rem;
     margin-right: 5rem;
   }
@@ -136,9 +136,9 @@ button {
       width: 35rem;
       margin: 1.5rem;
 
-      @include mq('marge') {
+      @include mq('large') {
         width: 25rem;
-        margin: 2rem;
+        margin: 2rem 0;
       }
     }
 }
@@ -381,7 +381,7 @@ iframe { pointer-events: none; }
 .image-gallery{
   margin: 5rem 10rem;
 
-  @include mq('large') {
+  @include mq('xlarge') {
     margin-left: 5rem;
     margin-right: 5rem;
   }
@@ -539,7 +539,7 @@ iframe { pointer-events: none; }
   align-items: center;
 }
 
-.mr-top-large {
+.mr-top-xlarge {
   margin-top: 10rem;
   display: block;
 }

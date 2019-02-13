@@ -162,10 +162,6 @@ button {
 .l-r-margin {
   margin-left: 10rem;
   margin-right: 10rem; }
-  @media only screen and (max-width: 1249px) {
-    .l-r-margin {
-      margin-left: 5rem;
-      margin-right: 5rem; } }
   @media only screen and (max-width: 649px) {
     .l-r-margin {
       margin-left: 2rem;
@@ -215,7 +211,7 @@ button {
     @media only screen and (max-width: 1050px) {
       .home-link img {
         width: 25rem;
-        margin: 2rem; } }
+        margin: 2rem 0; } }
 
 .mobile-dropdown {
   position: absolute;
@@ -532,6 +528,6 @@ iframe {
   justify-items: center;
   align-items: center; }
 
-.mr-top-large {
+.mr-top-xlarge {
   margin-top: 10rem;
   display: block; }
